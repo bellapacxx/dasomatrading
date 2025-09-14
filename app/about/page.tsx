@@ -64,7 +64,7 @@ export default function AboutPage() {
         <div className="bg-gray-900 p-8 rounded-lg text-center max-w-4xl mx-auto">
           <h3 className="text-deep-red text-2xl font-semibold mb-4">Philosophy</h3>
           <p className="text-gray-300 leading-relaxed">
-            "BE HONEST. BE INNOVATIVE." Profits and integrity coexist. We follow the law, communicate
+            &quot;BE HONEST. BE INNOVATIVE.&quot; Profits and integrity coexist. We follow the law, communicate
             openly, focus on customer needs, and continuously innovate to maximize success.
           </p>
         </div>
