@@ -10,7 +10,7 @@ export function Hero() {
       <div className="absolute inset-0">
         <img
           src="/images/hero-bg.jpg"
-          alt="Dasoma Group Hero"
+          alt="Dasoma Trading Hero"
           className="w-full h-full object-cover filter brightness-75"
         />
         {/* Gradient overlay */}

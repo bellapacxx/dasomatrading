@@ -6,7 +6,7 @@ export default function Footer() {
         
         {/* Company Info */}
         <div>
-          <h3 className="text-xl font-bold mb-4">Dasoma Group</h3>
+          <h3 className="text-xl font-bold mb-4">Dasoma Trading</h3>
           <p className="text-gray-400">
             Building Ethiopia’s future through automotive, mega projects, and digital tourism.
           </p>
@@ -29,7 +29,7 @@ export default function Footer() {
         <div>
           <h3 className="text-xl font-bold mb-4">Contact</h3>
           <p className="text-gray-400">Addis Ababa, Ethiopia</p>
-          <p className="text-gray-400">Email: info@dasomagroup.com</p>
+          <p className="text-gray-400">Email: info@dasomaTrading.com</p>
           <p className="text-gray-400">Phone: +251 11 123 4567</p>
           <div className="flex space-x-4 mt-4">
             <a href="#" className="hover:text-red-500 transition">FB</a>
@@ -40,7 +40,7 @@ export default function Footer() {
       </div>
 
       <div className="bg-gray-900 text-gray-500 text-center py-4 text-sm">
-        &copy; {new Date().getFullYear()} Dasoma Group. All rights reserved.
+        &copy; {new Date().getFullYear()} Dasoma Trading. All rights reserved.
       </div>
     </footer>
   );

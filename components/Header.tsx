@@ -12,7 +12,7 @@ export default function Header() {
       <div className="max-w-7xl mx-auto flex justify-between items-center px-6 py-4">
         {/* Logo */}
         <Link href="/">
-          <img src="/images/logo.png" alt="Dasoma Group Logo" className="h-10" />
+          <img src="/images/logo.png" alt="Dasoma Trading Logo" className="h-10" />
         </Link>
 
         {/* Desktop Navigation */}

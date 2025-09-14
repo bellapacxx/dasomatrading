@@ -43,7 +43,7 @@ export function ProjectsSection() {
           Mega Projects
         </h2>
         <p className="text-gray-300 text-center mb-12 max-w-3xl mx-auto">
-          Dasoma Group undertakes transformative mega projects across Ethiopia, spanning
+          Dasoma Trading undertakes transformative mega projects across Ethiopia, spanning
           industrial, housing, renewable energy, and entertainment sectors.
         </p>
 

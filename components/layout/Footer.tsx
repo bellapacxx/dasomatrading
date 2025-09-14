@@ -6,7 +6,7 @@ export function Footer() {
       <div className="container mx-auto grid md:grid-cols-3 gap-8 px-6">
         {/* About */}
         <div>
-          <h3 className="text-white text-lg font-bold mb-4">Dasoma Group</h3>
+          <h3 className="text-white text-lg font-bold mb-4">Dasoma Trading</h3>
           <p className="text-sm leading-relaxed">
             A conglomerate of companies based in Addis Ababa, Ethiopia, with
             expertise in automotive, tourism, event organizing, mega projects,
@@ -53,7 +53,7 @@ export function Footer() {
       </div>
 
       <div className="border-t border-deep-red mt-8 pt-4 text-center text-gray-500 text-sm">
-        © {new Date().getFullYear()} Dasoma Group. All rights reserved.
+        © {new Date().getFullYear()} Dasoma Trading. All rights reserved.
       </div>
     </footer>
   );

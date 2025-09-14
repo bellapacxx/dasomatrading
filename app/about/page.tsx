@@ -12,7 +12,7 @@ export default function AboutPage() {
         <div className="md:flex md:gap-12 items-center mb-16">
           <div className="md:w-1/2">
             <p className="text-gray-300 mb-4 leading-relaxed">
-              Dasoma Group is a conglomerate based in Addis Ababa, Ethiopia, with over a decade of
+              Dasoma Trading is a conglomerate based in Addis Ababa, Ethiopia, with over a decade of
               experience in automotive, trading, tourism, event organizing, and mega projects.
             </p>
             <p className="text-gray-300 mb-4 leading-relaxed">

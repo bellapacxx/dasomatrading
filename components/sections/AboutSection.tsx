@@ -9,7 +9,7 @@ export function AboutSection() {
         {/* Text Content */}
         <div className="md:w-1/2">
           <h2 className="text-3xl md:text-4xl font-bold text-deep-red mb-6">
-            About Dasoma Group
+            About Dasoma Trading
           </h2>
           <p className="text-gray-300 mb-6 leading-relaxed">
             Dasoma Trading is a conglomerate based in Addis Ababa, Ethiopia, with over a decade of
@@ -18,7 +18,7 @@ export function AboutSection() {
             transform industries and communities.
           </p>
           <p className="text-gray-300 mb-6 leading-relaxed">
-            With a commitment to integrity, innovation, and professionalism, Dasoma Group continues
+            With a commitment to integrity, innovation, and professionalism, Dasoma Trading continues
             to expand its impact across Ethiopia and beyond.
           </p>
           <Link
@@ -33,7 +33,7 @@ export function AboutSection() {
         <div className="md:w-1/2">
           <img
             src="/images/about-hero.png"
-            alt="Dasoma Group"
+            alt="Dasoma Trading"
             className="rounded-lg shadow-lg w-full object-cover"
           />
         </div>
