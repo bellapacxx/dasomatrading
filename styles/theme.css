@@ -1,0 +1,24 @@
+/* styles/theme.css */
+:root {
+  --color-deep-red: #8B0000; /* deep red */
+  --color-black: #0A0A0A; /* near black */
+  --color-white: #F5F5F5; /* off-white */
+  --color-gray: #CCCCCC;
+
+  /* Example custom accent */
+  --color-accent: #B22222; /* firebrick red */
+
+  /* Example for mint (just as a placeholder style reference) */
+  --color-mint-500: oklch(0.72 0.11 178);
+}
+
+/* Utility classes if needed */
+.bg-deep-red {
+  background-color: var(--color-deep-red);
+}
+.text-deep-red {
+  color: var(--color-deep-red);
+}
+.border-deep-red {
+  border-color: var(--color-deep-red);
+}

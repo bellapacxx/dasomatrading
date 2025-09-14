@@ -1,26 +1,23 @@
 @import "tailwindcss";
 
+/* Theme Variables */
 :root {
-  --background: #ffffff;
-  --foreground: #171717;
+  /* Deep red and black theme */
+  --color-primary: oklch(0.45 0.15 25);  /* Deep Red */
+  --color-accent: oklch(0.1 0 0);         /* Black */
+  --color-bg: oklch(0.07 0.01 0);         /* Dark section background */
+  --color-gray-bg: oklch(0.05 0 0);       /* Dark body background */
+  --color-text-light: oklch(0.95 0.01 0); /* Light text */
+  --color-red-500: oklch(0.55 0.12 28);   /* Accent red */
 }
 
-@theme inline {
-  --color-background: var(--background);
-  --color-foreground: var(--foreground);
-  --font-sans: var(--font-geist-sans);
-  --font-mono: var(--font-geist-mono);
-}
-
-@media (prefers-color-scheme: dark) {
-  :root {
-    --background: #0a0a0a;
-    --foreground: #ededed;
-  }
-}
-
+/* Apply body styles using variables */
 body {
-  background: var(--background);
-  color: var(--foreground);
-  font-family: Arial, Helvetica, sans-serif;
+  font-family: 'Montserrat', sans-serif;
+  background-color: var(--color-gray-bg);
+  color: var(--color-text-light);
+}
+
+h1, h2, h3, h4 {
+  font-family: 'Poppins', sans-serif;
 }
